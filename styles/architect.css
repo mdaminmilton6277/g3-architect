@@ -241,10 +241,5 @@ Sponsors section
 reaponsive style
 -------------------- */
 @media screen and (max-width: 577px) {
-    .header{
-        width: 0%;
-    }
-    .points-container{
-        display: none;
-    }
+   
 }
