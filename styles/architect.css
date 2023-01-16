@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+/*------------------ 
+nav bar design
+----------------- */
+.header{
+    
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    align-items: center;
+    margin-top: 50px;
+}
+.nav-title{
+    margin-left: 50px;
+    font-size: 50px;
+    font-weight: 600px;
+}
+.points-container{
+display: flex;
+margin-right: 30px;
+}
+.nav-points{
+    margin-right: 30px;
+}
+/* -------------------
+banner style start
+-------------------- */
+.banner-section{
+    width: 100%;
+    margin-top: 60px;
+    
+}
+.banner-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.banner-tittle-style{
+    width: 800px;
+   font-size: 55px;
+   font-weight: 700px;
+}
+.banner-paragraph{
+    width: 800px;
+    font-size: 25px;
+    
+}
+.primary-btn{
+    margin-top: 10px;
+    height: 70px;
+    width: 200px;
+    font-size: 22px;
+    background: #FF900E;
+    padding: 2px;
+    border-radius: 5px;
+    color: white;
+}
+.image-banner{
+  margin-top: 60px;
+  width: 1100px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-------------------------
+main section start 
+------------------------*/
+
+/* Features */
+.feature-container{
+    width: 100%;
+    margin-top: 90px;
+}
+.feature-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-type-feature{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+
+grid-row-gap: 10px;
+grid-column-gap: 10px;
+justify-content: center;
+align-items: center;
+
+}
+.team-description{
+    margin-left: 70px;
+    height: 200px;
+    width: 400px;
+}
+.title-desc{
+    font-weight: 700px;
+    font-size: 25px;
+    
+}
+.secondery-btn{
+    height: 40px;
+    width: 140px;
+    background-color: #FF900E;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+/*-------------------------- 
+2nd part of features
+------------------------- */
+.feature-container-two{
+width: 100%;
+margin-top: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.jhamela{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+.features-section{
+height: 200px;
+width: 300px;
+font-size: 16px;
+}
+.features-section-margin{
+    width: 400px;
+    margin-bottom: 25px;
+}
+.left-margin-style{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    width: 320px;
+    border-left: 3px solid rgb(201, 34, 252);
+}
+.btn-img-set{
+    display: flex;
+    flex-direction: column;
+}
+.experiance-img{
+   height: 800px;
+   width: 600px; 
+}
+.second-button{
+    font-size: 25px;
+height: 120px;
+width: 150px;
+color: rgb(255, 255, 255);
+background-color: #FF900E;
+padding: 7px;
+border-radius: 6px;
+}
+/*------------------- 
+Some facts div
+------------------- */
+.facts-container{
+    width: 100%;
+   padding: 50px;
+}
+.facts-title{
+width: 600px;
+padding-left: 80px;
+}
+
+.hover-items{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+      
+}
+.hover-div{
+    height: 130px;
+    width: 150px;
+    align-items: center;
+    border: 1px solid aqua;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.hover-div:hover{
+    background-color: #FF900E;
+
+    
+}
+/* --------------------
+Sponsors section
+-------------------- */
+.sponsor-container{
+    width: 100%;
+    margin: 50px 20px;
+}
+.our-sponsors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.spons-title{
+    width: 500px;
+    height: 180px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    
+}
+.font-title{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.sponsors-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.sp-items{
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+/* ------------------
+reaponsive style
+-------------------- */
+@media screen and (max-width: 577px) {
+    .header{
+        width: 0%;
+    }
+    .points-container{
+        display: none;
+    }
+}
